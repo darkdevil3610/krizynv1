@@ -5,7 +5,7 @@ itemCount: 999999999999, status: 1,
 message: `AwogAwogAwog`,
 orderTitle: 'B',
 sellerJid: '0@s.whatsapp.net',
-thumbnail: fs.readFileSync('./src/RadBotZ.jpg')
+thumbnail: fs.readFileSync('./src/img2.png')
 }}, {contextInfo: null, quoted: m})
 conn.relayWAMessage(prep)
 }
