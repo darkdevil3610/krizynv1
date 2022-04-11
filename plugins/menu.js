@@ -229,7 +229,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 Hello, ${name}`.trim(),
           "description": `
 ┏━━〔 𝙎 𝙏 𝘼 𝙏 𝙐 𝙎 〕━֍
-┃⬣ Up Time*${uptime}*
+┃⬣ Up Time *${uptime}*
 ┃⬣ Battery ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 ┃⬣ *${Object.keys(global.db.data.users).length}* Pengguna
 ┃⬣ *${totaljadibot.length}* Jadibot
