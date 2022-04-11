@@ -24,7 +24,7 @@ let handler  = async (m, { conn }) => {
 ❏ *Platform* : Unbuntu Linux
 ❏ *Uptime Bot* : ${clockString(process.uptime() * 1000)}
 ❏ *Host Number* : @${global.conn.user.jid.split('@')[0]}
-❏ *Bio Bot* : ${ppstatus.status}`, quoted: m, sendEphemeral: true, thumbnail: fs.readFileSync('./src/RadBotZ.jpg'), contextInfo: { mentionedJid: [global.conn.user.jid]}})
+❏ *Bio Bot* : ${ppstatus.status}`, quoted: m, sendEphemeral: true, thumbnail: fs.readFileSync('./src/img2.png'), contextInfo: { mentionedJid: [global.conn.user.jid]}})
 }
 handler.help = ['alive']
 handler.tags = ['main']
