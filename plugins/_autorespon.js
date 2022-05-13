@@ -14,9 +14,9 @@ handler.all = async function (m, { isBlocked }) {
 
         this.reply(m.chat, `┌───── *「 𝗜𝗡𝗩𝗜𝗧𝗘 𝗚𝗥𝗨𝗣 」*─────
 
-➥ Allo mypren Kalau mau Invite Bayar ya gengs👋
+➥ 
 
-➥ Jangan mau enak aja, tenang bakalan dijagain Grup lu
+➥ 
 
 ╔════════════════════════
 
@@ -26,11 +26,7 @@ handler.all = async function (m, { isBlocked }) {
 
 ║╭──❉ 「 𝗗𝗢𝗡𝗔𝗦𝗜 」 ❉──────
 
-║│➸ *DANA* : 081360482998
-
-║│➸ *PULSA*: 081360482998
-
-║│➸ *GOPAY*: _*Minta Ke Owner*_
+║│➸ 
 
 ║╰──────────────────
 
@@ -104,7 +100,7 @@ handler.all = async function (m, { isBlocked }) {
 
         let uptime = clockString(_uptime)
 
-        await this.setStatus(`Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | by ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×`).catch(_ => _)
+        await this.setStatus(`Bot uptime: ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | by ᴹᴿ𝗚𝗼𝘂𝗿𝗮𝘃×፝֟͜×`).catch(_ => _)
 
         setting.status = new Date() * 1
 
