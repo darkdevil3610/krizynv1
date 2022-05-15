@@ -15,10 +15,10 @@ gc1 = 'https://instagram.com/dark_devil_3609/'
 gc2 = 'https://instagram.com/dark_devil_3609'
 gc3 = 'https://instagram.com/dark_devil_3609/'
 global.linkGC = ['https://chat.whatsapp.com/GdYb1peYfLyAosgwrUnpNc', ''] // ganti jadi group lu
-global.owner = ['918089152280','918089152280'] // Put your number here //owner eval
+global.owner = ['917025770987','918089152280'] // Put your number here //owner eval
 global.kontak = ['918089152280','6285850539404'] //Ketika ada yang ngetik #owner
 global.mods = ['0'] // Want some help?
-global.prems = ['918089152280','6285850539404'] // Premium user has unlimited limit
+global.prems = ['918089152280','917025770987'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // nama: 'https://website'
   hardianto: 'https://hardianto-chan.herokuapp.com',
