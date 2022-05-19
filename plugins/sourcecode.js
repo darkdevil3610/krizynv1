@@ -1,8 +1,8 @@
 let fetch = require('node-fetch')
-let handler = async (m, { conn }) => conn.send2ButtonLoc(m.chat, await (await fetch(fla + 'KRIZYN BOTz')).buffer(), `
-UDAH TAHUN 2022 NI, MASIH AJA NGEMIS NGEMIS👻
+let handler = async (m, { conn }) => conn.send2ButtonLoc(m.chat, await (await fetch(fla + 'GOURAV BOTz')).buffer(), `
+Contact owner https://instagram.com/dark_devil_3609 and follow him and send .sc in Instagram 
 -
-`.trim(), '© 𝙆𝙧𝙞𝙯𝙮𝙣×͜×', 'Thanks', '.tqto', 'Back','.menu')
+`.trim(), '© 𝗚𝗼𝘂𝗿𝗮𝘃×͜×', 'Thanks', '.tqto', 'Back','.menu')
 handler.help = ['sourcecode']
 handler.tags = ['info']
 handler.command = /^(sourcecode|sc|scbot|script|github)$/i
