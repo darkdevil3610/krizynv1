@@ -25,7 +25,7 @@ handler.before = m => {
             }
         })
     }
-    return true
+    return false
 }
  
 module.exports = handler
