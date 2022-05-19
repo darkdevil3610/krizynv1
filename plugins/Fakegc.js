@@ -16,7 +16,7 @@ const anu = {
 			"inviteCode": "mememteeeekkeke",
 			"groupName": "P", 
             "caption": "Hi lort", 
-            'jpegThumbnail': fs.readFileSync('./src/RadBotZ.jpg')
+            'jpegThumbnail': fs.readFileSync('./src/RadBotZ.jpeg')
 		}
 	}
 }
