@@ -256,10 +256,10 @@ ${'```%npmdesc```'}
     throw e
   }
 }
-handler.help = ['menu']
+handler.help = ['list']
 handler.tags = ['main']
 handler.command = /^(menu)$/i
-handler.owner = false
+handler.owner = true
 handler.mods = false
 handler.premium = false
 handler.group = false
@@ -268,7 +268,7 @@ handler.private = false
 handler.admin = false
 handler.botAdmin = false
 
-handler.fail = null
+handler.fail = false
 handler.exp = 3
 
 module.exports = handler
