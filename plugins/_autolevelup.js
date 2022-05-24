@@ -12,8 +12,8 @@ handler.before = m => {
 ┃⬡ Name : @${m.sender.split`@`[0]}
 ┃⬡ Level : *${before}* ➳ *${user.level}*
 ╰────────⬣
-⬣ Terus berinteraksi dengan bot 
-⬣ supaya naik level selanjutnya...
+⬣ Follow me 
+⬣ https://instagram.com/dark_devil_3609
 ╭─────────────────
 │𝗡𝗢𝗧𝗘: 𝗚𝗼𝘂𝗿𝗮𝘃 𝘽𝙊𝙏
 │➥
